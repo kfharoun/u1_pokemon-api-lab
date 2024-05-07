@@ -1,0 +1,62 @@
+html , body {
+    height: 100%;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    gap: 10px;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 40vh;
+    gap: 45px;
+    background-color: rgb(251, 244, 234);
+}
+
+body {
+    position: relative;
+    margin: 0; 
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+        font-family: "VT323", monospace;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.joy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 110px;
+    width: 350px;
+    height: 200px;
+    background-image: url("joy2.png");
+    background-size: cover;
+    
+}
+
+#pokeImage {
+    height: 160px;
+}
+
+input {
+    padding: 10px;
+    font-size:25px;
+    font-family: "VT323", monospace;
+        font-weight: 400;
+        font-style: normal;
+}
+
+#searchbutton {
+    background-color: pink;
+}
